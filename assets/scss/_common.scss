@@ -172,3 +172,13 @@ textarea.form-control{
 .page-link:focus{
   box-shadow: none;
 }
+
+.category {
+  a {
+    color: #fff;
+    border-radius: 5px;
+    background-color: #e8505b;
+    padding: 0 5px;
+    font-size: 14px;
+  }
+}
