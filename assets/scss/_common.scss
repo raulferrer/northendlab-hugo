@@ -182,3 +182,24 @@ textarea.form-control{
     font-size: 14px;
   }
 }
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    margin-bottom: 25px;
+  }
+}
+
+.lateral_index {
+  display: flex;
+  flex-direction: column;
+}
+
+.social_index {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
