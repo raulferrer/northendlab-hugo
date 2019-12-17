@@ -7,7 +7,7 @@
         <img src="{{ .Params.Image | relURL }}" alt="" class="img-fluid d-block mx-auto rounded-circle mb-4">
         <h4>{{ .Title | markdownify }}</h4>
         <div class="content">
-          {{ .Content }}
+          {{ .Content | markdownify  }}
         </div>
       </div>
     </div>
